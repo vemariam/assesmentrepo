@@ -41,7 +41,7 @@ class RegistrationPage extends StatelessWidget {
                         if (provider.user == null) {
                           ScaffoldMessenger.of(context)
                               .showSnackBar(const SnackBar(
-                            content: Text('invalid data'),
+                            content: Text('Invalid data'),
                             showCloseIcon: true,
                           ));
                         } else {
